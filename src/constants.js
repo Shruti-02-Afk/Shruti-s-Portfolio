@@ -47,7 +47,7 @@ import jis from './assets/education_logo/JIS.jpeg';
 
 
 // Project Section Logo's
-import jobPortal from './assets/work_logo/jobPortal.png';
+import jobPortal from './assets/work_logo/JobPortal.png';
 import netflix from './assets/work_logo/Netflix.png';
 import newsMag from './assets/work_logo/NewsMag.png';
 import gemini from "./assets/work_logo/Gemini.jpg";
