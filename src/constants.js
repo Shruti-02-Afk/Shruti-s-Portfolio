@@ -51,6 +51,7 @@ import jobPortal from './assets/work_logo/JobPortal.png';
 import netflix from './assets/work_logo/Netflix.png';
 import newsMag from './assets/work_logo/NewsMag.png';
 import gemini from "./assets/work_logo/Gemini.jpg";
+import cashlytic from "./assets/work_logo/Cashlytic.png";
 
 
 export const SkillsInfo = [
@@ -62,7 +63,7 @@ export const SkillsInfo = [
       //{ name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
-     // { name: 'Angular', logo: angularLogo },
+      // { name: 'Angular', logo: angularLogo },
       { name: 'Redux', logo: reduxLogo },
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
@@ -80,7 +81,7 @@ export const SkillsInfo = [
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
       //{ name: 'Firebase', logo: firebaseLogo },
-     // { name: 'PostgreSQL', logo: postgreLogo },
+      // { name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
   {
@@ -103,7 +104,7 @@ export const SkillsInfo = [
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
       //{ name: 'Compass', logo: mcLogo },
-     // { name: 'Vercel', logo: vercelLogo },
+      // { name: 'Vercel', logo: vercelLogo },
       //{ name: 'Netlify', logo: netlifyLogo },
       //{ name: 'Figma', logo: figmaLogo },
     ],
@@ -200,6 +201,17 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Cashlytic",
+    description:
+      "A modern personal finance web app built with Next.js, JavaScript, and Supabase. It helps users track expenses, manage budgets, and analyze spending patterns, with AI-powered receipt scanning using the Google Gemini API. Features include secure Clerk authentication, real-time workflows with Inngest, and a sleek, responsive UI with Tailwind CSS.",
+    image: cashlytic, 
+    tags: ["Next.js", "JavaScript", "Supabase", "Clerk", "Inngest", "Google Gemini API", "AI-powered", "Tailwind CSS", "React", "REST API"],
+    github: "https://github.com/Shruti-02-Afk/Cashlytic", 
+    webapp: "https://cashlytic-git-main-shruti-shaws-projects.vercel.app/", 
+  },
+
+  {
+    id: 1,
     title: "Job Portal",
     description:
       "A robust full-stack job portal application developed with React.js, Node.js, and MongoDB, featuring secure JWT-based authentication, efficient job posting workflows, and advanced filtering capabilities. The platform integrates Cloudinary for seamless media management and leverages Material UI to deliver a responsive and intuitive user interface, enhancing the overall user experience for job seekers and recruiters alike.",
@@ -209,7 +221,7 @@ export const projects = [
     webapp: "https://github.com/Shruti-02-Afk/JOB-PORTAL",
   },
   {
-    id: 1,
+    id: 2,
     title: "Netflix Full-Stack Colne",
     description:
       "Built a full-stack Netflix clone website using ReactJS and Shadcn UI for a sleek, responsive interface featuring dynamic movie listings and secure user authentication. Developed backend RESTful APIs with Express and Node.js to manage users and movie data, leveraging MongoDB for efficient data persistence.",
@@ -220,7 +232,7 @@ export const projects = [
     webapp: "https://github.com/Shruti-02-Afk/Netflix",
   },
   {
-    id: 2,
+    id: 3,
     title: "News Magazine Website",
     description:
       "Developed a dynamic news magazine website utilizing HTML, CSS, and JavaScript. The platform aggregates and displays the latest news articles, providing users with an engaging and informative reading experience.",
@@ -231,7 +243,7 @@ export const projects = [
     webapp: "https://github.com/Shruti-02-Afk/News-Magazine",
   },
   {
-    id: 3,
+    id: 4,
     title: "Gemini AI Chatbot Clone",
     description:
       "Developed a responsive Gemini AI chatbot clone using React and Vite, integrating the Google Gemini API for real-time conversational interactions. The application features a sleek chat interface with simulated typing effects, providing users with an engaging and informative experience.",
