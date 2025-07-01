@@ -47,7 +47,7 @@ import jis from './assets/education_logo/JIS.jpeg';
 
 
 // Project Section Logo's
-import jobPortal from './assets/work_logo/JobPortal.png';
+import careerdock from './assets/work_logo/CareerDock.png';
 import netflix from './assets/work_logo/Netflix.png';
 import newsMag from './assets/work_logo/NewsMag.png';
 import gemini from "./assets/work_logo/Gemini.jpg";
@@ -204,22 +204,23 @@ export const projects = [
     title: "Cashlytic",
     description:
       "A modern personal finance web app built with Next.js, JavaScript, and Supabase. It helps users track expenses, manage budgets, and analyze spending patterns, with AI-powered receipt scanning using the Google Gemini API. Features include secure Clerk authentication, real-time workflows with Inngest, and a sleek, responsive UI with Tailwind CSS.",
-    image: cashlytic, 
+    image: cashlytic,
     tags: ["Next.js", "JavaScript", "Supabase", "Clerk", "Inngest", "Google Gemini API", "AI-powered", "Tailwind CSS", "React", "REST API"],
-    github: "https://github.com/Shruti-02-Afk/Cashlytic", 
-    webapp: "https://cashlytic-git-main-shruti-shaws-projects.vercel.app/", 
+    github: "https://github.com/Shruti-02-Afk/Cashlytic",
+    webapp: "https://cashlytic-git-main-shruti-shaws-projects.vercel.app/",
   },
 
   {
     id: 1,
-    title: "Job Portal",
+    title: "CareerDock",
     description:
-      "A robust full-stack job portal application developed with React.js, Node.js, and MongoDB, featuring secure JWT-based authentication, efficient job posting workflows, and advanced filtering capabilities. The platform integrates Cloudinary for seamless media management and leverages Material UI to deliver a responsive and intuitive user interface, enhancing the overall user experience for job seekers and recruiters alike.",
-    image: jobPortal,
-    tags: ["React.js", "Node.js", "Express", "MongoDB", "JavaScript", "JWT", "Cloudinary", "Multer", "Redux Toolkit", "Material UI", "REST API"],
-    github: "https://github.com/Shruti-02-Afk/JOB-PORTAL",
-    webapp: "https://github.com/Shruti-02-Afk/JOB-PORTAL",
+      "A full-stack job portal platform designed to connect job seekers with employers. Built with Node.js, Express, and MongoDB, CareerDock enables users to search and apply for jobs, while recruiters can post and manage job listings. It features JWT-based authentication, secure RESTful APIs, and a clean, user-friendly interface with EJS templating.",
+    image: careerdock, // Replace with your image import or path
+    tags: ["Node.js", "Express", "MongoDB", "Mongoose", "JWT", "REST API", "EJS", "HTML", "CSS", "Full-Stack"],
+    github: "https://github.com/Shruti-02-Afk/CAREER_DOCK",
+    webapp: "https://careerdock.onrender.com/",
   },
+
   {
     id: 2,
     title: "Netflix Full-Stack Colne",
