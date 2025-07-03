@@ -40,7 +40,7 @@ const About = () => {
             I’m Shruti Shaw, a Computer Science student at JIS College of Engineering specializing in full-stack web development. Skilled in React.js, Node.js, MongoDB, and Tailwind CSS, I build efficient, user-friendly applications backed by strong problem-solving and programming fundamentals. I’m passionate about learning and creating impactful software solutions.
           </p>
           {/* Resume Button */}
-          <a href="https://drive.google.com/file/d/1Qb2qN-D7OAdHB-1kwuJXAM9XGOBVlHMe/view?usp=sharing"
+          <a href="https://drive.google.com/file/d/1HBScKNrad-GBkz07-ErScb-hZnEC2cM1/view?usp=sharing"
             target='_blank'
             className='inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105'
             style={{
