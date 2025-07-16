@@ -223,7 +223,7 @@ export const projects = [
 
   {
     id: 2,
-    title: "Netflix Full-Stack Colne",
+    title: "Netflix Full-Stack Clone",
     description:
       "Built a full-stack Netflix clone website using ReactJS and Shadcn UI for a sleek, responsive interface featuring dynamic movie listings and secure user authentication. Developed backend RESTful APIs with Express and Node.js to manage users and movie data, leveraging MongoDB for efficient data persistence.",
     image: netflix,
