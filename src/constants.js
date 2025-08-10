@@ -192,7 +192,7 @@ export const education = [
     img: anms,
     school: "Authpur National Model Higher Secondary School",
     date: "Apr 2018 – Mar 2019",
-    grade: "A (87%)",
+    grade: "A (85.8%)",
     desc: "I completed my class 10 education from Authpur National Model Higher Secondary School under the ICSE board, where I studied in the Science stream.",
     degree: "ICSE (X), Science Stream",
   },
